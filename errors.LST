@@ -1,0 +1,85 @@
+
+INSERT INTO PAIS (nom, extensio) VALUES ('España', '504782');
+
+1 fila creada.
+
+INSERT INTO PAIS (nom, extensio) VALUES ('Francia', '547026');
+
+1 fila creada.
+
+INSERT INTO PAIS (nom, extensio) VALUES ('Portugal', '92391');
+
+1 fila creada.
+
+OEM_sqlplus_input_finished
+SPOOL off D:\Sistemes_Operatius
+SP2-0333: El nom del fitxer de spool és il·legal: "off D:\Sistemes_Operatius" (caràcter erroni: ' ')
+
+INSERT INTO PAIS (nom, extensio) VALUES ('España', '504782');
+INSERT INTO PAIS (nom, extensio) VALUES ('España', '504782')
+*
+ERROR a la línia 1:
+ORA-00001: s'ha infringit la restricció única (GRUP20.PAIS_PK)
+
+
+INSERT INTO PAIS (nom, extensio) VALUES ('Francia', '547026');
+INSERT INTO PAIS (nom, extensio) VALUES ('Francia', '547026')
+*
+ERROR a la línia 1:
+ORA-00001: s'ha infringit la restricció única (GRUP20.PAIS_PK)
+
+
+INSERT INTO PAIS (nom, extensio) VALUES ('Portugal', '92391');
+INSERT INTO PAIS (nom, extensio) VALUES ('Portugal', '92391')
+*
+ERROR a la línia 1:
+ORA-00001: s'ha infringit la restricció única (GRUP20.PAIS_PK)
+
+
+OEM_sqlplus_input_finished
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Mataro', 'España', 123000);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Barcelona', 'España', 1619337);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Madrid', 'España', 6081689);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Vigo', 'España', 297241);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Valencia', 'España', 798033);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Murcia', 'España', 1370306);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Zaragoza', 'España', 674725);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Sevilla', 'España', 703021);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Alicante', 'España', 334329);
+
+1 fila creada.
+
+INSERT INTO POBLACIO (nom_poblacio, nom_pais, nombre_habitants) VALUES ('Cordoba', 'España', 325453);
+
+1 fila creada.
+
+
+OEM_sqlplus_input_finished
+SPOOL OFF D:
+SP2-0333: El nom del fitxer de spool és il·legal: "OFF D:" (caràcter erroni: ' ')
+OEM_sqlplus_input_finished
+SPOOL D:

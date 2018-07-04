@@ -1,0 +1,87 @@
+[Entidades]: 8 
+  JOGUINES   246   366 
+          [Atributos]: 3 
+         nom   1  1  1  0  0 
+         descripcio   0  2  25  0  0 
+         edat_adequada   0  1  1  0  0 
+  NENS   615   663 
+          [Atributos]: 4 
+         codi   1  1  1  0  0 
+         nom   0  2  25  0  0 
+         cognom   0  2  25  0  0 
+         data_naixement   0  4  1  0  0 
+  PAIS   912   435 
+          [Atributos]: 2 
+         nom   1  2  25  0  0 
+         extensio   0  1  1  0  0 
+ [Subset]  EDUCATIVA   442   250 
+    [Entidad_Superclase]   JOGUINES   
+          [Atributos]: 1 
+         capacitat   0  2  25  0  0 
+ [Subset]  ESPORTIVA   437   392 
+    [Entidad_Superclase]   JOGUINES   
+          [Atributos]: 1 
+         tipus_esportiva   0  2  25  0  0 
+ [Debil]  CARTA   246   663 
+ [Entidad_Superclase]  NENS    
+    [Interrelacion]   ESCRIU   
+          [Atributos]: 3 
+         nom   1  2  25  0  0 
+         any_carta   0  4  1  0  0 
+         forma_enviament   0  2  25  0  0 
+ [Debil]  POBLACIO   913   668 
+ [Entidad_Superclase]  PAIS    
+    [Interrelacion]   ESTA   
+          [Atributos]: 2 
+         nom_poblacio   1  2  25  0  0 
+         nombre_habitants   0  2  25  0  0 
+  ANYS   614   401 
+          [Atributos]: 1 
+         anys   1  1  1  0  0 
+[Interrelaciones]: 7 
+  ESCRIU   430   663 0
+          [Entidades]: 2 
+         NENS   1  0 1
+         CARTA   2  0 1
+            [Atributos]: 0 
+  ESTA   912   551 782
+          [Entidades]: 2 
+         PAIS   1  0 1
+         POBLACIO   2  0 1
+            [Atributos]: 0 
+  DEMANA_CA   245   529 0
+          [Entidades]: 2 
+         CARTA   2  0 1
+         JOGUINES   2  0 1
+            [Atributos]: 0 
+  VIUEN   779   662 0
+          [Entidades]: 2 
+         NENS   2  0 1
+         POBLACIO   1  0 1
+            [Atributos]: 0 
+  EQUIVALEN   248   233 1
+          [Entidades]: 2 
+         JOGUINES   2  0 2
+ 191 289
+         JOGUINES   2  0 2
+ 312 291
+            [Atributos]: 0 
+  ASSIGNADA   614   280 0
+          [Entidades]: 2 
+         ANYS   2  0 1
+         JOGUINES   2  0 1
+            [Atributos]: 0 
+  COMPORTAM   614   515 0
+          [Entidades]: 2 
+         ANYS   2  0 1
+         NENS   2  0 1
+            [Atributos]: 0 
+[Fuentes]:
+  [Entidades]: 0 <Arial> 14 0 1 0 0 0 (0 0 0)
+  [Interrelaciones]: 0 <Arial> 16 0 0 0 0 0 (0 0 0)
+  [Enlaces]: <Arial> 12 0 1 0 0 0 (0 0 0)
+  [Generalizaciones]: 0 <Times new Roman> 16 0 0 0 0 0 (0 0 0)
+[Colores]:
+  [Entidades]: (255 255 255)
+  [Interrelaciones]: (255 255 255)
+  [Generalizaciones]: (255 255 255)
