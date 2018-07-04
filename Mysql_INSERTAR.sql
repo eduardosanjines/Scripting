@@ -1,0 +1,16 @@
+INSERT INTO Countries VALUES ('España', 'A')
+INSERT INTO Countries VALUES ('Argentina', 'B')
+INSERT INTO Countries VALUES ('Colombia', 'B')
+INSERT INTO Countries VALUES ('Francia', 'C')
+INSERT INTO Countries VALUES ('Nigeria', 'C')
+INSERT INTO Countries VALUES ('Italia', 'E')
+INSERT INTO Countries VALUES ('Portugal', 'F')
+INSERT INTO Countries VALUES ('Islandia', 'G')
+INSERT INTO Countries VALUES ('Uruguay', 'F')
+INSERT INTO Countries VALUES ('Mexico', 'A')
+INSERT INTO Countries VALUES ('Suiza', 'D')
+INSERT INTO Countries VALUES ('Belgica', 'D')
+INSERT INTO Countries VALUES ('Russia', 'E')
+INSERT INTO Countries VALUES ('Brasil', 'E')
+
+commit;
